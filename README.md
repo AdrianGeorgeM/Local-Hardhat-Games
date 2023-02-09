@@ -1,4 +1,18 @@
 # Local Hardhat Games
+Game1.sol
+
+![Screenshot](https://user-images.githubusercontent.com/62570164/217911834-efb68838-9166-4a55-a922-cad25269c520.png)
+
+Game2.sol
+
+
+
+
+
+
+
+
+
 
 Let's work on our solidity skills while deploying against a local hardhat blockchain! Inside this repository you'll find 5 smart contracts labled `Game1` to `Game5`. The goal of each smart contract is to:
 
