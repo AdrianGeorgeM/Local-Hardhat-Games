@@ -1,16 +1,22 @@
-# Local Hardhat Games
+# Local Hardhat Adrian Games 
 Game1.sol
-
-![Screenshot](https://user-images.githubusercontent.com/62570164/217911834-efb68838-9166-4a55-a922-cad25269c520.png)
-
+![Screenshot 2023-02-09](https://user-images.githubusercontent.com/62570164/217929715-0273a24d-0572-4c55-b9f5-d5039e22026a.png)
 Game2.sol
+![Screenshot 2023-02-09](https://user-images.githubusercontent.com/62570164/217920864-ea57036f-118e-49b3-a57e-e5f7fcc0fec8.png)
+Game3.sol
+![Screenshot 2023-02-09](https://user-images.githubusercontent.com/62570164/217922732-d6c5f25f-b57a-4ffd-bcef-10714dca5b91.png)
+Game4.sol
+![Screenshot 2023-02-09](https://user-images.githubusercontent.com/62570164/217927733-c061c573-768a-46bc-910e-d1e2eb1bb28e.png)
+Game5.sol
+![Screenshot 2023-02-09](https://user-images.githubusercontent.com/62570164/217929336-f5adc676-78a4-46fd-b56d-d38d8ccef095.png)
 
-
-
-
-
-
-
+0. Run our local node - `npx hardhat node` 
+0.1 This will spin up a local, persistent hardhat blockchain on your port 8545.
+2. Deploy the contract to local hardhat network `npx hardhat run scripts/deploy.js`
+2.1 If you do this successfully you should see two things in the two terminals:
+2.2- **Your Script Terminal** - A message saying "Game1 deployed to address: 0x..." (copy the contract address)
+2.3- **Hardhat Node Terminal** - A contract deployed to your local hardhat blockchain (notice all the JSON RPC methods being logged!)
+3. `npx hardhat run scripts/game1.js`
 
 
 
