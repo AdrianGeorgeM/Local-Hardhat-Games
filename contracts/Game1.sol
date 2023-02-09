@@ -1,10 +1,10 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Game1 {
-  event Winner(address winner);
+contract AdrianGame1 {
+    event GameWinner(address winner);
 
-  function win() public {
-    emit Winner(msg.sender);
-  }
+    function win() public {
+        emit GameWinner(msg.sender);
+    }
 }
