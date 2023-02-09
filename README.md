@@ -1,7 +1,9 @@
 # Local Hardhat Games
 Game1.sol
 
-![Screenshot 2023-02-09 at 18 59 11](https://user-images.githubusercontent.com/62570164/217911556-7ddcd3be-e284-4724-94a8-4cbd8450fb38.png)
+![Screenshot](https://user-images.githubusercontent.com/62570164/217911834-efb68838-9166-4a55-a922-cad25269c520.png)
+
+Game2.sol
 
 
 
