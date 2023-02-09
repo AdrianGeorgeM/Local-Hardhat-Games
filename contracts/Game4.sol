@@ -1,16 +1,16 @@
 //SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract Game4 {
-  uint8 y = 210;
+contract AdrianGame4 {
+    uint8 y = 210;
 
-  event Winner(address winner);
+    event Game4Winner(address winner);
 
-  function win(uint8 x) public {
-    unchecked {
-        uint8 sum = x + y;
-        require(sum == 10, "Incorrect argument passed in!");
+    function win(uint8 x) public {
+        unchecked {
+            uint8 sum = x + y;
+            require(sum == 10, "Incorrect argument passed in!");
+        }
+        emit Game4Winner(msg.sender);
     }
-    emit Winner(msg.sender);
-  }
 }
