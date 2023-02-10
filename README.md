@@ -94,7 +94,6 @@ Try each game! See if you can emit the Winner event on each one. Remember to:
 
 ## Use Hardhat Console Log
 
-Are you stuck on a particular challenge? You can use `console.log` from Hardhat! To do so, simply import it into your contract (before you deploy it):
 
 ```solidity
 pragma solidity ^0.8.17;
